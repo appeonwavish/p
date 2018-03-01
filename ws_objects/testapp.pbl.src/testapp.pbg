@@ -1,0 +1,10 @@
+﻿Save Format v3.0(19990112)
+@begin Libraries
+ "testapp.pbl" "";
+@end;
+@begin Objects 
+ "testapp.sra" "testapp.pbl";
+ "dw_inquiry_items_edit_list_datawindow.srd" "testapp.pbl";
+ "p_testapp_exe.srj" "testapp.pbl";
+ "w_test.srw" "testapp.pbl";
+@end;
