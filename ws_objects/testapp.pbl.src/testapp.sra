@@ -33,6 +33,6 @@ destroy(message)
 end on
 
 event open;open(w_test)
-//---87
+//---8789
 end event
 
