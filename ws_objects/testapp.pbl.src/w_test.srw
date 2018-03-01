@@ -50,7 +50,7 @@ destroy(this.st_1)
 end on
 
 type st_2 from statictext within w_test
-integer x = 20
+integer x = 18
 integer y = 1828
 integer width = 590
 integer height = 156
@@ -68,7 +68,7 @@ end type
 
 type dw_2 from datawindow within w_test
 event ue_postclick ( long al_row )
-integer x = 20
+integer x = 18
 integer y = 1012
 integer width = 2610
 integer height = 796
@@ -80,7 +80,6 @@ boolean hscrollbar = true
 boolean vscrollbar = true
 boolean border = false
 boolean livescroll = true
-borderstyle borderstyle = StyleBox!
 end type
 
 event ue_postclick(long al_row);integer 	li_return;
@@ -129,8 +128,8 @@ NEXT
 end event
 
 type dw_1 from datawindow within w_test
-integer x = 20
-integer y = 20
+integer x = 18
+integer y = 112
 integer width = 2610
 integer height = 796
 integer taborder = 20
@@ -141,7 +140,6 @@ boolean hscrollbar = true
 boolean vscrollbar = true
 boolean border = false
 boolean livescroll = true
-borderstyle borderstyle = StyleBox!
 end type
 
 event clicked;integer 	li_return;
@@ -189,7 +187,7 @@ NEXT
 end event
 
 type st_1 from statictext within w_test
-integer x = 20
+integer x = 18
 integer y = 836
 integer width = 590
 integer height = 156
